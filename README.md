@@ -13,7 +13,7 @@ Das WordPress-Plugin „2-Step Verification“ wurde zwischen den beiden WordCam
 
 ### Plugin-Aktivierung
 
-Nach der Aktivierung ist die Erweiterung scharf. Keine Einstellungen notwendig. Abmelden, anmelden, klappt ;)
+Nach der Aktivierung ist die Erweiterung scharf. Keine Einstellungen notwendig. Abmelden, anmelden, läuft.
 
 
 ### Plugin-Deaktivierung
