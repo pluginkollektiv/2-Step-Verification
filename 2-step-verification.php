@@ -4,7 +4,7 @@ Plugin Name: 2-Step Verification
 Description: Zwei-Faktor-Authentifizierung für WordPress. Unabhängig und datenschutzbewusst, denn der Sicherheitscode kommt per E-Mail.
 Author: Sergej M&uuml;ller
 Author URI: http://wpcoder.de
-Plugin URI:
+Plugin URI: https://github.com/sergejmueller/2-Step-Verification
 License: GPLv2 or later
 Version: 0.0.1
 */
