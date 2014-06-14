@@ -16,29 +16,28 @@ Das WordPress-Plugin „2-Step Verification“ habe ich zwischen den beiden Word
 Sollte etwas schief gehen und der Administrationsbereich ist blockiert, kann die Umbenennung bzw. Löschung des Plugins auf dem Webserver Abhilfe schaffen.
 
 
-Mindestvoraussetzungen
-----------------------
+#### Mindestvoraussetzungen
+
 * WordPress 3.9
 * PHP 5.2.4
 
 
-Inbetriebnahme
---------------
+#### Inbetriebnahme
 
 1. ZIP herunterladen
 2. Den entpackten Ordner ins Plugin-Verzeichnis kopieren
 3. Plugin aktivieren
 
 
-Donate
-------
+#### Donate
+
 * [Gittip](https://www.gittip.com/sergejmueller/)
 * [Flattr](https://flattr.com/submit/auto?user_id=sergej.mueller&url=https%3A%2F%2Fgithub.com%2Fsergejmueller%2Fwp-blacklist-updater)
 * [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5RDDW9FEHGLG6)
 
 
-Autor
------
+#### Autor
+
 *Sergej Müller*
 * [Google+](https://plus.google.com/110569673423509816572?rel=author)
 * [Twitter](https://twitter.com/wpSEO)
