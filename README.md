@@ -3,12 +3,12 @@
 
 Während der [WordCamp 2014](http://2014.hamburg.wordcamp.org) Session „Zwei-Faktor Authentifizierung für WordPress“ hat jemand aus dem Publikum (wer war’s?) eine interessante Idee geäußert, die Zwei-Schritte-Verifizierung (= [Zwei-Faktor-Authentifizierung](http://de.wikipedia.org/wiki/Zwei-Faktor-Authentifizierung)) direkt über die E-Mail abzuwickeln. Der Sicherheitscode kommt also per E-Mail.
 
-Der Vorteil: Keine Drittanbieter, keine weiteren Apps. Der WordPress-Administrationsbereich wird nach einer erfolgreichen Anmeldung erst dann zugänglich, wenn auch der - per E-Mail erhaltene - Sicherheitscode ebenfalls übereinstimmt.
+Der Vorteil dieses Ansatzes: Keine Drittanbieter, keine weiteren Apps, keine dubiosen SMS- oder Messenger-Nachrichten. Der WordPress-Administrationsbereich wird nach einer erfolgreichen Anmeldung erst dann zugänglich, wenn auch der - per E-Mail erhaltene - Sicherheitscode  übereinstimmt.
 
 
 ### Frisch aus dem Backoffen
 
-Das WordPress-Plugin „2-Step Verification“ habe ich zwischen den beiden WordCamp 2014 Tagen entwickelt. Tests, Erfahrungen und Vorschläge sind willkommen.
+Das WordPress-Plugin „2-Step Verification“ wurde zwischen den beiden WordCamp 2014 Tagen entwickelt. Tests, Erfahrungen und Vorschläge sind willkommen.
 
 
 ### Plugin-Deaktivierung
