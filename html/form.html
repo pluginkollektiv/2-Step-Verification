@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
+		<link rel="stylesheet" href='/wp-admin/load-styles.php?load=wp-admin,buttons' />
+		<link rel="stylesheet" href="/wp-admin/css/colors/midnight/colors.min.css" />
+
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			html,
+			body {
+				width: 100%;
+				height: 100%;
+			}
+			a {
+				top: 10px;
+				display: table;
+				position: absolute;
+				text-decoration: none;
+			}
+			a.back {
+				left: 10px;
+			}
+			a.wpcoder {
+				right: 10px;
+			}
+			form {
+				top: 50%;
+				left: 50%;
+				width: 300px;
+				display: block;
+				margin: -150px 0 0 -150px;
+				position: absolute;
+				text-align: center;
+			}
+			input {
+				width: 200px;
+				display: inline-block;
+			}
+			input[type="text"] {
+				margin: 5px 0;
+				height: 50px;
+				font-size: 30px;
+				line-height: 50px;
+				text-align: center;
+			}
+		</style>
+
+		<title>
+			Abfrage des Sicherheitscodes
+		</title>
+	</head>
+
+	<body class="wp-core-ui">
+		<a href="<!-- %login_url% -->" class="back">← Zurück zum Login</a>
+		<a href="http://wpcoder.de" target="_blank" class="wpcoder">Plugin von Sergej Müller</a>
+
+		<form action="" method="post">
+			<p>
+				An deine E-Mail-Adresse wurde ein Sicherheitscode verschickt. Bitte gib den Code zwecks Verifizierung in das folgende Feld ein.
+			</p>
+
+			<input type="text" name="_auth_token" id="_auth_token" maxlength="5" autofocus autocomplete="off" autocorrect="off" spellcheck="false" required />
+			<input type="submit" class="button button-primary" value="Sicherheitscode verifizieren" />
+			<!-- %nonce_field% -->
+		</form>
+	</body>
+</html>
