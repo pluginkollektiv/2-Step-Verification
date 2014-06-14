@@ -11,6 +11,11 @@ Der Vorteil dieses Ansatzes: Keine Drittanbieter, keine weiteren Apps, keine dub
 Das WordPress-Plugin „2-Step Verification“ wurde zwischen den beiden WordCamp 2014 Tagen entwickelt. Tests, Erfahrungen und Vorschläge sind willkommen.
 
 
+### Plugin-Aktivierung
+
+Nach der Aktivierung ist die Erweiterung scharf. Keine Einstellungen notwendig. Abmelden, anmelden, klappt ;)
+
+
 ### Plugin-Deaktivierung
 
 Sollte etwas schief gehen und der Administrationsbereich ist blockiert, kann die Umbenennung bzw. Löschung des Plugins auf dem Webserver Abhilfe schaffen.
