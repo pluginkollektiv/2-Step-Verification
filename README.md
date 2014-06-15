@@ -11,7 +11,7 @@ Der Vorteil dieses Ansatzes: Keine Drittanbieter, keine weiteren Apps, keine dub
 WordPress Anmeldeseite → Eingabe der Nutzerdaten → Login erfolgreich → Sicherheitscode per E-Mail → Weiterleitung auf die Abfrageseite → Eingabe des Sicherheitscodes → Weiterleitung zum Adminbereich.
 
 
-### Frisch aus dem Backoffen
+### Frisch aus dem Backofen
 
 Das WordPress-Plugin „2-Step Verification“ wurde zwischen den beiden WordCamp 2014 Tagen entwickelt. Tests, Erfahrungen und Vorschläge sind willkommen.
 
