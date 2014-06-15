@@ -7,8 +7,8 @@
 		<meta name="robots" content="noindex, nofollow" />
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
-		<link rel="stylesheet" href='/wp-admin/load-styles.php?load=wp-admin,buttons' />
-		<link rel="stylesheet" href="/wp-admin/css/colors/midnight/colors.min.css" />
+		<link rel="stylesheet" href='<!-- %wp-admin% -->load-styles.php?load=wp-admin,buttons' />
+		<link rel="stylesheet" href="<!-- %wp-admin% -->css/colors/midnight/colors.min.css" />
 
 		<style>
 			* {
@@ -17,8 +17,7 @@
 			}
 			html,
 			body {
-				width: 100%;
-				height: 100%;
+				overflow: hidden;
 			}
 			a {
 				top: 10px;
@@ -65,10 +64,10 @@
 
 		<form action="" method="post">
 			<p>
-				An deine E-Mail-Adresse wurde ein Sicherheitscode verschickt. Bitte gib den Code zwecks Verifizierung in das folgende Feld ein.
+				An deine E-Mail-Adresse wurde ein Sicherheitscode verschickt.<br />Der Code läuft in 5 Minuten ab.
 			</p>
 
-			<input type="text" name="_auth_token" id="_auth_token" maxlength="5" autofocus autocomplete="off" autocorrect="off" spellcheck="false" required />
+			<input type="text" name="_auth_token" id="_auth_token" placeholder="CODE" maxlength="5" autofocus autocomplete="off" autocorrect="off" spellcheck="false" required />
 			<input type="submit" class="button button-primary" value="Sicherheitscode verifizieren" />
 			<!-- %nonce_field% -->
 		</form>

@@ -39,6 +39,14 @@ Sollte etwas schief gehen und der Administrationsbereich ist blockiert, kann die
 3. Plugin aktivieren
 
 
+#### Versionsverlauf
+
+###### 0.0.2 / 15.06.2014
+* Sicherheitscode läuft nach 5 Minuten ab
+* Abfrageseite: CSS-Einbindung mit dynamischen Pfaden
+* Code-Refactoring & Kommentare
+
+
 #### Donate
 
 * [Gittip](https://www.gittip.com/sergejmueller/)

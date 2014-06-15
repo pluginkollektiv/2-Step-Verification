@@ -6,7 +6,7 @@ Author: Sergej M&uuml;ller
 Author URI: http://wpcoder.de
 Plugin URI: https://github.com/sergejmueller/2-Step-Verification
 License: GPLv2 or later
-Version: 0.0.1
+Version: 0.0.2
 */
 
 /*
@@ -34,7 +34,7 @@ defined('ABSPATH') OR exit;
 
 /* Lib include */
 require_once sprintf(
-	'%s/inc/admin.class.php',
+	'%s/inc/auth.class.php',
 	dirname(__FILE__)
 );
 
