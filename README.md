@@ -8,7 +8,7 @@ Der Vorteil dieses Ansatzes: Keine Drittanbieter, keine weiteren Apps, keine dub
 
 ### Funktionsweise
 
-WordPress Anmeldeseite → Eingabe der Nutzerdaten → Login erfolgreich → Sicherheitscode per E-Mail → Weiterleitung auf die Abfrageseite → Eingabe des Sicherheitscodes → Weiterleitung zum Adminbereich.
+WordPress Anmeldeseite → Eingabe der Nutzerdaten → Login erfolgreich → Sicherheitscode per E-Mail → Weiterleitung auf die Abfrageseite → Eingabe des Sicherheitscodes → Weiterleitung zum Administrationsbereich.
 
 
 ### Frisch aus dem Backofen
