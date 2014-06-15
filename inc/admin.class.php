@@ -39,7 +39,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
 		}
 
 		/* User ID */
-		$user_id = wp_get_current_user()->ID;
+		$user_id = get_current_user_id();
 
 		/* Auth token */
 		$user_auth_token = get_user_meta(
@@ -48,7 +48,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
 			true
 		);
 
-		/* Not loked? Exit! */
+		/* Not locked? Exit! */
 		if ( empty($user_auth_token) ) {
 			return;
 		}
