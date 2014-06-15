@@ -34,26 +34,26 @@ defined('ABSPATH') OR exit;
 
 /* Lib include */
 require_once sprintf(
-	'%s/inc/auth.class.php',
-	dirname(__FILE__)
+    '%s/inc/auth.class.php',
+    dirname(__FILE__)
 );
 
 
 /* Action! */
 add_action(
-	'wp_login',
-	array(
-		'SIMPLE_TWO_FACTOR_AUTH',
-		'set_user_token'
-	),
-	10,
-	2
+    'wp_login',
+    array(
+        'SIMPLE_TWO_FACTOR_AUTH',
+        'set_user_token'
+    ),
+    10,
+    2
 );
 
 add_action(
-	'admin_init',
-	array(
-		'SIMPLE_TWO_FACTOR_AUTH',
-		'instance'
-	)
+    'admin_init',
+    array(
+        'SIMPLE_TWO_FACTOR_AUTH',
+        'instance'
+    )
 );
