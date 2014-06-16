@@ -55,13 +55,7 @@ Kommunikation gerne per [Issue](https://github.com/sergejmueller/2-Step-Verifica
 
 #### Versionsverlauf
 
-###### 0.0.3 / 15.06.2014
-* Code läuft auch dann ab, wenn der Nutzer auf der Abfrageseite bleibt ([Issue #6](https://github.com/sergejmueller/2-Step-Verification/issues/6))
-
-###### 0.0.2 / 15.06.2014
-* Sicherheitscode läuft nach 5 Minuten ab ([Issue #2](https://github.com/sergejmueller/2-Step-Verification/issues/2))
-* Abfrageseite: CSS-Einbindung mit dynamischen Pfaden ([Issue #3](https://github.com/sergejmueller/2-Step-Verification/issues/3))
-* Code-Refactoring & Kommentare
+Seit Beginn der Entwicklung wird ein ausführlicher [Changelog](https://github.com/sergejmueller/2-Step-Verification/wiki/Changelog) geführt. In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verknüpften [Issues](https://github.com/sergejmueller/2-Step-Verification/issues).
 
 
 #### Donate
