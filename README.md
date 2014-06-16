@@ -12,6 +12,8 @@ WordPress Anmeldeseite → Eingabe der Nutzerdaten → Login erfolgreich → Sic
 
 Die Zwei-Wege-Authentifizierung findet ausschliesslich bei WordPress-Anmeldungen im Webbrowser statt. Logins via Apps (WordPress Mobile, Drittanwendungen wie Microsoft Live Writer etc.) sind vor Plugin-Funktionalität nicht betroffen.
 
+Alles klar? Antworten auf [Häufige Fragen](https://github.com/sergejmueller/2-Step-Verification/wiki/Häufige-Fragen).
+
 
 ### Frisch aus dem Backofen
 
