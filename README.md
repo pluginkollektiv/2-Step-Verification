@@ -31,7 +31,7 @@ Sollte etwas schief gehen und der Administrationsbereich ist blockiert, kann die
 
 ### Gemeinsam
 
-Um den Entwicklungs(zu)stand zu professionalisieren, ist man als Entwickler an die Mitarbeit der Community angewiesen. Folgende Punkte benötigen Unterstützung:
+Um den Entwicklungs(zu)stand zu professionalisieren, ist man als Entwickler auf die Mitarbeit der Community angewiesen. Folgende Punkte benötigen Unterstützung:
 
 * Tests der Anwendung inkl. Feedback
 * Vorschläge für Funktionen
