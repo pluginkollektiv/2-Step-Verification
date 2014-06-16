@@ -19,6 +19,7 @@ Das WordPress-Plugin „2-Step Verification“ wurde zwischen den beiden WordCam
 ### Plugin-Aktivierung
 
 Nach der Aktivierung ist die Erweiterung scharf. Keine Einstellungen notwendig. Abmelden, anmelden, läuft.
+In einer der nächsten Versionen wird es die Möglichkeit geben, eine separate und nur für die Zusendung des Sicherheitscodes genutzte E-Mail-Adresse zu hinterlegen ([Issue #4](https://github.com/sergejmueller/2-Step-Verification/issues/4)).
 
 
 ### Plugin-Deaktivierung
