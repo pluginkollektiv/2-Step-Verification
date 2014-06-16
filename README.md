@@ -50,8 +50,8 @@ Kommunikation gerne per [Issue](https://github.com/sergejmueller/2-Step-Verifica
 
 1. ZIP herunterladen
 2. Plugin in WordPress installieren
-⋅⋅1. Wahlweise den entpackten Ordner per SFTP übertragen
-⋅⋅2. Oder die ZIP-Datei direkt in WordPress hochladen
+    1. Wahlweise den entpackten Ordner per SFTP übertragen
+    2. Oder die ZIP-Datei direkt in WordPress hochladen
 3. Plugin aktivieren
 
 
