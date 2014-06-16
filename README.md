@@ -35,7 +35,7 @@ Um den Entwicklungs(zu)stand zu professionalisieren, ist man als Entwickler auf 
 
 * Tests der Anwendung inkl. Feedback
 * Vorschläge für Funktionen
-* Korrekturprüfung für Texte und Sprachdateien (folgen)
+* Korrekturprüfung der Texte und Sprachdateien (folgen)
 
 Kommunikation gerne per [Issue](https://github.com/sergejmueller/2-Step-Verification/issues) oder E-Mail. Vielen Dank an dieser Stelle für den Support.
 
@@ -63,7 +63,7 @@ In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verkn
 
 ##### Autor
 
-Sergej Müller
+[Sergej Müller](http://wpcoder.de)
 
 
 ##### Donuts
@@ -77,4 +77,4 @@ Sergej Müller
 
 * [Google+](https://plus.google.com/110569673423509816572?rel=author)
 * [Twitter](https://twitter.com/wpSEO)
-* [Plugins](http://wpcoder.de)
+* [Impressum](http://wpcoder.de)
