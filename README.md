@@ -59,6 +59,11 @@ Seit Beginn der Entwicklung wird ein ausführlicher [Changelog](https://github.c
 In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verknüpften [Issues](https://github.com/sergejmueller/2-Step-Verification/issues).
 
 
+##### Autor
+
+Sergej Müller
+
+
 ##### Donuts
 
 * [Gittip](https://www.gittip.com/sergejmueller/)
@@ -71,12 +76,3 @@ In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verkn
 * [Google+](https://plus.google.com/110569673423509816572?rel=author)
 * [Twitter](https://twitter.com/wpSEO)
 * [Plugins](http://wpcoder.de)
-
-
-##### Impressum
-Sergej Müller
-Gustav-Strobel-Ring 90
-25421 Pinneberg
-USt-IdNr.: DE263030389
-
-hello AT wpcoder DOT de
