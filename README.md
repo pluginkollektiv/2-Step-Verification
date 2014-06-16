@@ -59,16 +59,24 @@ Seit Beginn der Entwicklung wird ein ausführlicher [Changelog](https://github.c
 In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verknüpften [Issues](https://github.com/sergejmueller/2-Step-Verification/issues).
 
 
-#### Donate
+##### Donats
 
 * [Gittip](https://www.gittip.com/sergejmueller/)
-* [Flattr](https://flattr.com/submit/auto?user_id=sergej.mueller&url=https%3A%2F%2Fgithub.com%2Fsergejmueller%2Fwp-blacklist-updater)
+* [Flattr](https://flattr.com/submit/auto?user_id=sergej.mueller&url=https%3A%2F%2Fgithub.com%2Fsergejmueller%2F2-Step-Verification)
 * [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5RDDW9FEHGLG6)
 
 
-#### Autor
+##### Profil
 
-*Sergej Müller*
 * [Google+](https://plus.google.com/110569673423509816572?rel=author)
 * [Twitter](https://twitter.com/wpSEO)
 * [Plugins](http://wpcoder.de)
+
+
+##### Impressum
+Sergej Müller
+Gustav-Strobel-Ring 90
+25421 Pinneberg
+USt-IdNr.: DE263030389
+
+hello AT wpcoder DOT de
