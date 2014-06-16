@@ -55,7 +55,8 @@ Kommunikation gerne per [Issue](https://github.com/sergejmueller/2-Step-Verifica
 
 #### Versionsverlauf
 
-Seit Beginn der Entwicklung wird ein ausführlicher [Changelog](https://github.com/sergejmueller/2-Step-Verification/wiki/Changelog) geführt. In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verknüpften [Issues](https://github.com/sergejmueller/2-Step-Verification/issues).
+Seit Beginn der Entwicklung wird ein ausführlicher [Changelog](https://github.com/sergejmueller/2-Step-Verification/wiki/Changelog) geführt.
+In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verknüpften [Issues](https://github.com/sergejmueller/2-Step-Verification/issues).
 
 
 #### Donate
