@@ -148,7 +148,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
     * Generates a user token
     *
     * @since   0.0.1
-    * @change  0.0.2
+    * @change  0.0.3
     *
     * @param   string  $user_token  User auth token
     * @return  mixed                FALSE if the $auth_token does not match the hashed token
@@ -186,7 +186,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
     * Displays the auth form page
     *
     * @since   0.0.1
-    * @change  0.0.2
+    * @change  0.0.3
     */
 
     private static function _the_auth_form()
@@ -195,6 +195,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
             array(
                 '<!-- %login_url% -->',
                 '<!-- %nonce_field% -->',
+                '<!-- %wp-includes% -->',
                 '<!-- %wp-admin% -->'
             ),
             array(
@@ -205,6 +206,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
                     true,
                     false
                 ),
+                includes_url(),
                 admin_url()
             ),
             file_get_contents(

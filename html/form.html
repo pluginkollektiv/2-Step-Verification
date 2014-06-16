@@ -5,20 +5,13 @@
         <meta charset="utf-8" />
 
         <meta name="robots" content="noindex, nofollow" />
+        <meta name="viewport" content="width=device-width" />
 
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
-        <link rel="stylesheet" href='<!-- %wp-admin% -->load-styles.php?load=wp-admin,buttons' />
-        <link rel="stylesheet" href="<!-- %wp-admin% -->css/colors/midnight/colors.min.css" />
+        <link rel="stylesheet" href="<!-- %wp-includes% -->css/buttons.min.css" />
+        <link rel="stylesheet" href='<!-- %wp-admin% -->css/login.min.css' />
 
         <style>
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            html,
-            body {
-                overflow: hidden;
-            }
             a {
                 top: 10px;
                 display: table;
@@ -26,22 +19,22 @@
                 text-decoration: none;
             }
             a.back {
-                left: 10px;
+                left: 20px;
             }
             a.wpcoder {
-                right: 10px;
+                right: 20px;
             }
             form {
                 top: 50%;
                 left: 50%;
-                width: 300px;
+                width: 260px;
                 display: block;
-                margin: -150px 0 0 -150px;
+                margin: -130px 0 0 -130px;
                 position: absolute;
                 text-align: center;
             }
             input {
-                width: 200px;
+                width: 100%;
                 display: inline-block;
             }
             input[type="text"] {
@@ -50,6 +43,16 @@
                 font-size: 30px;
                 line-height: 50px;
                 text-align: center;
+            }
+
+            @media only screen and (max-width: 480px) {
+                a.wpcoder {
+                    top: auto;
+                    right: 0;
+                    bottom: 20px;
+                    width: 100%;
+                    text-align: center;
+                }
             }
         </style>
 
