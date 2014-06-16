@@ -157,9 +157,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
     private static function _handle_post_request($user_token)
     {
         /* Verify the nonce */
-        if ( ! check_admin_referer( '_auth_token_verify', '_auth_token_field' ) ) {
-            wp_die('Noooooo?');
-        }
+        check_admin_referer( '_auth_token_verify', '_auth_token_field' );
 
         /* Init */
         $user_id = self::$_user_id;
