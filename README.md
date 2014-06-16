@@ -42,8 +42,8 @@ Sollte etwas schief gehen und der Administrationsbereich ist blockiert, kann die
 #### Versionsverlauf
 
 ###### 0.0.2 / 15.06.2014
-* Sicherheitscode läuft nach 5 Minuten ab (props [Adrian Lambertz](http://pixelbar.be))
-* Abfrageseite: CSS-Einbindung mit dynamischen Pfaden (props [Adrian Lambertz](http://pixelbar.be))
+* Sicherheitscode läuft nach 5 Minuten ab ([Issue #2](https://github.com/sergejmueller/2-Step-Verification/issues/2))
+* Abfrageseite: CSS-Einbindung mit dynamischen Pfaden ([Issue #3](https://github.com/sergejmueller/2-Step-Verification/issues/3))
 * Code-Refactoring & Kommentare
 
 
