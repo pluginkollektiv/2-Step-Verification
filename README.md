@@ -29,6 +29,17 @@ In einer der nächsten Versionen wird es die Möglichkeit geben, eine separate u
 Sollte etwas schief gehen und der Administrationsbereich ist blockiert, kann die Umbenennung bzw. Löschung des Plugins auf dem Webserver Abhilfe schaffen.
 
 
+### Gemeinsam
+
+Um den Entwicklungs(zu)stand zu professionalisieren, ist man als Entwickler an die Mitarbeit der Community angewiesen. Folgende Punkte benötigen Unterstützung:
+
+* Tests der Anwendung inkl. Feedback
+* Vorschläge für Funktionen
+* Korrekturprüfung für Texte und Sprachdateien (folgen)
+
+Kommunikation gerne per [Issue](https://github.com/sergejmueller/2-Step-Verification/issues) oder E-Mail. Vielen Dank an dieser Stelle für den Support.
+
+
 #### Mindestvoraussetzungen
 
 * WordPress 3.9
