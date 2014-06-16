@@ -55,7 +55,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
     * User token check
     *
     * @since   0.0.1
-    * @change  0.0.2
+    * @change  0.0.3
     */
 
     public static function _verify_user_token()
@@ -81,17 +81,18 @@ final class SIMPLE_TWO_FACTOR_AUTH {
             return;
         }
 
+        /* Token life expired? */
+        if ( ! get_site_transient( $token_field . $user_id ) ) {
+            /* Logout */
+            wp_logout();
+
+            /* Redirect */
+            auth_redirect();
+        }
+
         /* Process post request */
         if ( self::_is_post_request() ) {
             self::_handle_post_request( $user_token );
-        }
-
-        if ( ! get_site_transient( $token_field . $user_id ) ) {
-            /* Kill the token ... */
-            self::_destroy_user_token();
-
-            /* ... and logout */
-            wp_logout();
         }
 
         /* Display the form */
