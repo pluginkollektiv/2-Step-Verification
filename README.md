@@ -59,7 +59,7 @@ Seit Beginn der Entwicklung wird ein ausführlicher [Changelog](https://github.c
 In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verknüpften [Issues](https://github.com/sergejmueller/2-Step-Verification/issues).
 
 
-##### Donats
+##### Donuts
 
 * [Gittip](https://www.gittip.com/sergejmueller/)
 * [Flattr](https://flattr.com/submit/auto?user_id=sergej.mueller&url=https%3A%2F%2Fgithub.com%2Fsergejmueller%2F2-Step-Verification)
