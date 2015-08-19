@@ -72,7 +72,7 @@ In der Textdatei landen alle größeren Änderungen, nach Möglichkeit mit verkn
 
 * [Gittip](https://www.gittip.com/sergejmueller/)
 * [Flattr](https://flattr.com/submit/auto?user_id=sergej.mueller&url=https%3A%2F%2Fgithub.com%2Fsergejmueller%2F2-Step-Verification)
-* [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5RDDW9FEHGLG6)
+* [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8CH5FPR88QYML)
 
 
 ##### Profil
