@@ -262,7 +262,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
         wp_mail(
             $user_email,
             __('Dein Sicherheitscode'),
-            $token
+            $token . "\n\n" . __('Link zum Login:') . ' ' . self_admin_url() . '?token=' . $token
         );
     }
 }
