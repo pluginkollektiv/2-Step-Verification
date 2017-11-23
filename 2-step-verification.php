@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: 2-Step Verification
-Description: Two-Factor-Authentification for WordPress. Sends validation link to your registered Email address at login.
+Description: Zwei-Faktor-Authentifizierung für WordPress. Unabhängig und datenschutzbewusst, denn der Sicherheitscode kommt an die E-Mail-Adresse deines WordPress-Benutzers. Einfach aktivieren und fertig.
 Author: pluginkollektiv
 Author URI: http://pluginkollektiv.org
 Plugin URI: https://github.com/pluginkollektiv/2-Step-Verification
@@ -10,7 +10,7 @@ Version: 0.0.2
 */
 
 /*
-Copyright (C)  2014-2014 Sergej Müller
+Copyright (C)  2014-2017 Pluginkollektiv
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
