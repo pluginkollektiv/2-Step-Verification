@@ -261,7 +261,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
         /* Send token */
         wp_mail(
             $user_email,
-            __('Your security code', '2-Step-Verification'),
+            esc_html__('Your security code', '2-Step-Verification'),
             $token
         );
     }
