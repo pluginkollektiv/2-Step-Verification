@@ -8,8 +8,8 @@
         <meta name="viewport" content="width=device-width" />
 
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
-        <link rel="stylesheet" href="<!-- %wp-includes% -->css/buttons.min.css" />
-        <link rel="stylesheet" href='<!-- %wp-admin% -->css/login.min.css' />
+        <link rel="stylesheet" href="<?php echo esc_attr( includes_url() ); ?>css/buttons.min.css" />
+        <link rel="stylesheet" href='<?php echo esc_attr( admin_url() ); ?>css/login.min.css' />
 
         <style>
             a {
@@ -21,7 +21,7 @@
             a.back {
                 left: 20px;
             }
-            a.wpcoder {
+            a.pluginkollektiv {
                 right: 20px;
             }
             form {
@@ -46,7 +46,7 @@
             }
 
             @media only screen and (max-width: 480px) {
-                a.wpcoder {
+                a.pluginkollektiv {
                     top: auto;
                     right: 0;
                     bottom: 20px;
@@ -62,17 +62,19 @@
     </head>
 
     <body class="wp-core-ui">
-        <a href="<!-- %login_url% -->" class="back"><?php esc_html_e( '← Back to Login', '2-Step-Verification' ); ?></a>
-        <a href="http://wpcoder.de" target="_blank" class="wpcoder"><?php esc_html_e( 'Plugin from Sergej Müller', '2-Step-Verification' ); ?></a>
+        <a href="<?php esc_url( wp_login_url() ); ?>" class="back"><?php esc_html_e( '← Back to Login', '2-Step-Verification' ); ?></a>
+        <a href="https://pluginkollektiv.org" target="_blank" class="pluginkollektiv"><?php esc_html_e( 'A Plugin of the Pluginkollektiv', '2-Step-Verification' ); ?></a>
 
         <form action="" method="post">
             <p>
-                <?php esc_html_e( 'A security code has been sent to your email address. <br /> The code will expire in 5 minutes.', '2-Step-Verification' ); ?>
+                <?php esc_html_e( 'A security code has been sent to your email address.', '2-Step-Verification' ); ?>
+				<br />
+                <?php esc_html_e( 'The code will expire in 5 minutes.', '2-Step-Verification' ); ?>
             </p>
 
             <input type="text" name="_auth_token" placeholder="CODE" maxlength="5" autocomplete="off" autocorrect="off" spellcheck="false" required />
             <input type="submit" class="button button-primary" value="<?php esc_attr_e( 'Verify security code', '2-Step-Verification' ); ?>"/>
-            <!-- %nonce_field% -->
+            <?php wp_nonce_field( '_auth_token_verify', '_auth_token_field', true ); ?>
         </form>
     </body>
 </html>
