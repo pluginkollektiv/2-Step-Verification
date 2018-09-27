@@ -191,31 +191,7 @@ final class SIMPLE_TWO_FACTOR_AUTH {
 
     private static function _the_auth_form()
     {
-        echo str_replace(
-            array(
-                '<!-- %login_url% -->',
-                '<!-- %nonce_field% -->',
-                '<!-- %wp-includes% -->',
-                '<!-- %wp-admin% -->'
-            ),
-            array(
-                wp_login_url(),
-                wp_nonce_field(
-                    '_auth_token_verify',
-                    '_auth_token_field',
-                    true,
-                    false
-                ),
-                includes_url(),
-                admin_url()
-            ),
-            file_get_contents(
-                sprintf(
-                    '%s../html/form.html',
-                    plugin_dir_path( __FILE__ )
-                )
-            )
-        );
+    	include plugin_dir_path( __DIR__ ) . 'mail/form.php';
     }
 
 
