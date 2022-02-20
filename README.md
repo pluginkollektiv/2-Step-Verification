@@ -1,6 +1,6 @@
 # 2-Step Verification #
 * Contributors:      pluginkollektiv
-* Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LG5VC9KXMAYXJ
+* Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=TD4AMD2D8EMZW
 * Tags:              2FA, Auth, authenticate, google authenticator, login, password, security, two factor auth, two-factor,
 * Requires at least: WordPress 3.9
 * Tested up to:      4.3
