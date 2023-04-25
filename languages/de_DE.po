@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: <PROJECT NAME>\n"
+"POT-Creation-Date: 2018-09-20 14:18+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bernhard Kau <bernhard@kau-boys.de>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/auth.class.php:240
+msgid "Your security code"
+msgstr "Dein Sicherheitscode"
+
+#: ../mail/form.php:60
+msgid "Query of security code"
+msgstr "Abfrage des Sicherheitscodes"
+
+#: ../mail/form.php:65
+msgid "← Back to Login"
+msgstr "← Zurück zum Login"
+
+#: ../mail/form.php:66
+msgid "A Plugin of the Pluginkollektiv"
+msgstr "Ein Plugin des Pluginkollektivs"
+
+#: ../mail/form.php:70
+msgid "A security code has been sent to your email address."
+msgstr "An deine E-Mail-Adresse wurde ein Sicherheitscode verschickt."
+
+#: ../mail/form.php:72
+msgid "The code will expire in 5 minutes."
+msgstr "Der Code läuft in 5 Minuten ab."
+
+#: ../mail/form.php:76
+msgid "Verify security code"
+msgstr "Sicherheitscode verifizieren"
